@@ -1,4 +1,4 @@
-from SQL_Pandas import sqlCred, read_sql, to_sql
+from sqlDataframe import sqlCred, read_sql, to_sql
 
 if __name__=="__main__":
     creds = sqlCred(database='Northwind_Db',username='SA',password='abc$12345')
